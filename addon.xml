@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.windscribe.remote"
-version="2.4.0"
-name="Windscribe remote"
-provider-name="tux2000">
+<addon id="plugin.windscribe.remote" version="2.5.1" name="Windscribe remote" provider-name="tux2000">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
 </requires>
@@ -12,11 +9,5 @@ provider-name="tux2000">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Windscribe remote</summary>
   <description lang="en_GB">Use Windscribe CLI from within KODI</description>
-  <disclaimer lang="en_GB">Windscribe CLI needs to be available on linux host</disclaimer>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-  </assets>
-  <news>None</news>
 </extension>
 </addon>
